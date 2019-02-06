@@ -1,0 +1,80 @@
+
+
+
+body{
+  background: grey;
+  /* background: url(to.jpg); */
+    background-size: cover;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: steelblue;
+  color: white;
+}
+form{
+  margin: 20px auto;
+  width: 320px;
+  color: white;
+}
+input{
+  padding: 10px;
+  font-size: inherit;
+}
+input[type="text"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid black;
+  background: #FAF6D9;
+}
+input[type="mail"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid black;
+  background: #FAF6D9;
+}
+input[type="password"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid black;
+  background: #FAF6D9;
+}
+input[type="radio"]{
+  margin: 0 8px 25px 20px;
+}
+input[type="radio"]:first-child{
+  margin-left: 0;
+}
+input[type="submit"]{
+  width: 344px;
+  height: 45px;
+  border: none;
+  background: darkred;
+  color: white;
+  border: 2px solid black;
+}
+input[type="submit"]:focus {
+  width: 344px;
+  height: 45px;
+  border: solid steelblue;
+  background: white;
+  color: red;
+}
+
+input:focus{
+  background: #FAF6D9;
+}
+input[type="radio"]:checked + label{
+  font-weight: bold;
+  font-size: 18px;
+}
+input[type="note"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid black;
+  background: #FAF6D9;
+}
